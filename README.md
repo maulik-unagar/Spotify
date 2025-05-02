@@ -1,4 +1,4 @@
-# 🎵 Spotify UI Clone
+# 🎵 Spotify
 
 A visually stunning and responsive Spotify web player UI clone that brings your favorite playlists to life. Built with modern design elements, smooth interactivity, and clean code architecture.
 
