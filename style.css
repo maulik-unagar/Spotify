@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'poppins';
+    color: white;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ---------------------------------font ended ------------------------------------------------ */
+
+.container {
+    background-color: #000;
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 25vw;
+    margin: 5px;
+}
+.left1{
+    padding:20px;
+    margin-top: 2px;
+    background-color: #242424;
+    border-radius: 5px;
+    height: 15vh;
+
+}
+
+.close{
+    background: transparent;
+    border-style: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+}
+.left img {
+    filter: invert(1);
+}
+
+.main_link {
+    list-style: none;
+    font-weight: bold;
+    padding: 20px;
+}
+.main_link li {
+   padding: 5px;
+}
+
+.home img{
+    width: 12px;
+    padding-right:10px ;
+}
+.search img{
+    width: 12px;
+    padding-right:10px ;
+}
+
+.left2{
+    padding:10px;
+    background-color: #242424;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 70vh;
+    position: relative;
+    
+}
+.left2{
+    padding: 20px;
+}
+.left2 img{
+    padding-right: 10px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+    
+}
+.footer div{
+    margin: 5px;
+    overflow: hidden;
+    
+}
+
+.footer div a {
+    text-decoration: none;
+    
+}
+.footer div a span {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* ------------------------------------ Right ------------------------------------------------ */
+.right {
+    width: 75vw;
+    background-color: #242424;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d3d3d;
+    border-radius: 5px;
+}
+.hamburgerContainer{
+    margin: 18px;
+}
+
+.signupbtn{
+    border-radius: 21px;
+    color: gray;
+   background-color: transparent;
+   border: none;
+   font-weight: bold;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loginbtn{
+    background-color: white;
+    border-radius: 21px;
+    color: black;
+    padding: 10px;
+    width: 79px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.buttons-b{
+    padding: 10px;
+}
+
+/* ---------------------------right 2 --------------------- */
+
+.hamb{
+    filter: invert(1);
+    padding: 0px 10px;
+    background: transparent;
+    border-style: none;
+}
+.right2 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 10px;
+    justify-content: space-around; 
+    background-color: #242424; 
+    border-radius: 10px;
+    max-height: 62vh; 
+    overflow-y: auto; 
+    position: relative;
+    
+}
+.titl{
+    padding-left: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+/* Playlist Cards */
+.cards {
+    background-color: #2a2a2a; 
+    border-radius: 8px; 
+    padding: 15px; 
+    width: 150px; 
+    text-align: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.cards h3 {
+    font-size: 18px; 
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.cards p {
+    font-size: 14px;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+
+}
+
+/* Hover effect for cards */
+.cards:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+}
+
+
+.right2::-webkit-scrollbar {
+    width: 8px;
+}
+
+.right2::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.right2::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); 
+    border-radius: 10px;
+}
+
+.right2::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7); 
+}
+
+
+.right2 {
+    scrollbar-width: thin; 
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .right2 {
+        justify-content: center; 
+    }
+
+    .cards {
+        width: 160px;
+    }
+}
+
+
+/* ------------------playlist btn----------------- */
+
+.playlist{
+    border: 1px solid gray;
+    height: 13vh;
+    border-radius: 5px;
+    background: #252725;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+.song-name{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.lft , .rht , .puse{
+    filter: invert(1);
+    padding: 0px 10px;
+    padding-top: 10px;
+
+}
+.line{
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    border-style: none;
+}
+
+.icons button{
+    padding-bottom: 3px;
+    background: transparent;
+    border-style: none;
+    border-radius: 100px;
+}
+.lft, .puse, .rht {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.lft:active, .puse:active, .rht:active {
+    transform: scale(0.9);  /* Shrinks slightly when clicked */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);  /* Adds subtle shadow */
+}
+
+
+
+.line{
+    margin-top: 10px;
+}
+
+.circle{
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background: whitesmoke;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    bottom: 6px;
+    left: 0%;
+    transition: left 1s;
+}
+
+
+
+
+/* -------------------------media querry ----------------- */
+@media only screen and (max-width: 1050px) {
+    .song_disp {
+        font-size: 12px; /* Change to a valid unit */
+    }
+}
+@media only screen and (max-width: 750px) {
+    .left{
+        transform: translateX(-120%);
+    }
+    .left{
+        display: none;
+    }
+   .right{
+    width: 100%;
+   }
+    
+}
+@media only screen and (max-width: 419px) {
+    .titl{
+        font-size:20px;
+    }
+    .cards{
+        width: 120px;
+        padding-bottom: 10px;
+    }
+    .cards h3{
+        font-size: 16px;
+    }
+    .cards p{
+        font-size: 12px;
+    }
+   
+}
+
+@media (max-width: 750px) {
+.left {
+    display: none; /* Hide it initially */
+    position: absolute; /* Position it absolutely */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    height: 100vh; /* Full height */
+    width: 250px; /* Adjust width as needed */
+    background-color: #111; /* Background color */
+    transition: transform 0.3s ease; /* Smooth transition */
+    z-index: 1000; /* Ensure it is on top of other content */
+    
+}
+.left2{
+    font-size: 15px;
+}
+.song_disp{
+    font-size: 13px;
+    padding: 3px;
+}
+.footer{
+    display: inline;
+}
+
+
+.left.active {
+    display: block;
+}
+
+
+    .left {
+        transform: translateX(-100%); /* Initially hide off-screen */
+    }
+
+    .left.active {
+        transform: translateX(0); /* Slide in */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Song Display Area */
+.song_disp {
+    /* background: rgba(255, 255, 255, 0.1); Light background for song display */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the songs */
+    border-radius: 8px; /* Rounded corners */
+    max-height: 70vh; /* Limit height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Song Item */
+.song {
+    padding: 10px; /* Padding for song items */
+    margin: 5px 0; /* Margin between items */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s;
+}
+
+/* Hover Effect for Song Items */
+.song:hover {
+    background: rgba(255, 255, 255, 0.2); /* Lighten background on hover */
+}
+
+/* Custom Scrollbar Styles for WebKit browsers (Chrome, Safari) */
+.song_disp::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+.song_disp::-webkit-scrollbar-track {
+    background: transparent; /* Make the scrollbar track transparent */
+}
+
+.song_disp::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.5); /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded edges for the scrollbar thumb */
+}
+
+.song_disp::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7); /* Color of the scrollbar thumb on hover */
+}
+
+/* Custom Scrollbar Styles for Firefox */
+.song_disp {
+    scrollbar-width: thin; /* Options: auto, thin */
+    scrollbar-color: rgba(255, 255, 255, 0.5) transparent; /* thumb color, track color */
+}
+
+
